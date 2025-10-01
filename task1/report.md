@@ -61,6 +61,10 @@
 
    ![](./screenshots/fdisk.png)
 
+   Видим созданный раздел
+
+   ![](./screenshots/lsblk_after.png)
+
     - Создать `Physical Volume (PV)` на этом разделе
 
    ![](./screenshots/pvcreate.png)
@@ -89,7 +93,7 @@
 
    ![](./screenshots/mkfs_xfs_mount.png)
 
-4. Задание 4. Использование pseudo filesystem (25 баллов)
+5. Задание 4. Использование pseudo filesystem (25 баллов)
 
     - Извлечь из `/proc` модель CPU и объем памяти (KiB)
 
