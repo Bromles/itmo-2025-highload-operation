@@ -78,7 +78,18 @@
 
     - Извлечь из `/proc` модель CPU и объем памяти (KiB)
 
+   К сожалению, `arm64` версия Debian не отдает подробную информацию о процессоре из `/proc/cpuinfo` (что замечали и
+   пользователи производных от него систем, например Raspberry OS https://github.com/raspberrypi/linux/issues/3991)
+
    ![](./screenshots/proc_cpuinfo_fail.png)
+
+   Поэтому данная команда была повторно выполнена на другом устройстве в WSL
+
+   ![](./screenshots/cpuinfo.jpg)
+
+   С `/proc/meminfo` же проблем никаких нет 
+
+   ![](./screenshots/meminfo.png)
 
     - Используя `/proc/$$/status`, найдите `Parent Process ID (PPid)` вашего текущего shell. Что означает `$$`?
 
