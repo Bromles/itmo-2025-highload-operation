@@ -11,3 +11,5 @@
 - Задание 3. "Сетевой стек"
   [Отчет](./task3/report.md)
 
+- Задание 4. "WEB. High Performance WEB и CDN"
+  [Отчет](./task4/report.md)
